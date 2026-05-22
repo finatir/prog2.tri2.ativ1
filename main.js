@@ -29,11 +29,11 @@ function loadFromLocalStorage() {
   })
 }
 
-// Create a DOM element for a task
+// Create  DOM element for a task
 function createDomTask(title) {
   const task = itemTemplate.content.cloneNode(true)
 
-  task.querySelector('.title').textContent = title
+  task.querySelector('.titlee').textContent = title
 
   task.querySelector('.bt-delete')
     .addEventListener('click', (e) => {
